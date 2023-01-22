@@ -34,7 +34,9 @@ html, body {
     box-shadow: rgba(68, 18, 216, 0.971) 6px 4px 0px;
     
     }
-    
+    .lien{
+        color:grey;
+    }
     .biotope {
         float: left;
         margin: 3%;
@@ -49,5 +51,11 @@ html, body {
         text-align: center;
         position:relative;
         bottom: auto;
+    }
+    @media screen and (max-width : 780px) {
+        .presentation{
+            border: none;
+            box-shadow: none;
+        }
     }
 
