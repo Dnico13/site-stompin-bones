@@ -1,0 +1,53 @@
+html, body {
+    font-size: 100%;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    
+    display: flex;
+    height: 10%;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    }
+.presentation {
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-family:  Arial, sans-serif;
+    width: 70%;
+    height: auto;
+    padding: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    left:15%;
+    
+    border: 6px solid white;
+    box-shadow: rgba(68, 18, 216, 0.971) 6px 4px 0px;
+    
+    }
+    
+    .biotope {
+        float: left;
+        margin: 3%;
+    }
+    .abc{
+        align-items: center;
+        top:-10%
+    }
+    .foot {
+        color: white;
+        font-size: 0.8em;
+        text-align: center;
+        position:relative;
+        bottom: auto;
+    }
+
