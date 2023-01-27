@@ -35,13 +35,28 @@ html, body {
         margin-top: 5% ;
     }
 
-    @media  screen and (max-width: 780px) {
+  
+    @media screen and (max-width: 1210px) {
+        .navmobile{
+            display: none;
+        }
+        .navrubrique{
+            
+            margin: 5%;
+        }
+        
         .encadrement{
             border: none;
             box-shadow: none;
         }
-        
+  
     }
+@media screen and (min-width: 1209px) {
+    .navrubrique{
+        display: none;
+    }
+    
+}
     .sardines, .ampli {
         border-radius: 40% 15% 40% 15%;
         border: solid 6px white;

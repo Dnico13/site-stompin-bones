@@ -1,0 +1,88 @@
+html, body {
+    font-size: 100%;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    
+    display: flex;
+    height: 10%;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    }
+.containerinstru {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    left: 15%;
+    margin-top: 10%;
+    color: white;
+    text-align: justify;
+    font-family:  Arial, sans-serif;
+    }
+        
+.contrebasse {
+        width: 15%;
+        height: auto;
+        float: left;
+        margin-right: 3%;
+        border-radius: 40% 15% 40% 15%;
+        border: solid 6px white;
+        box-shadow: rgba(68, 18, 216, 0.971) 6px 4px 0px;
+        }
+        
+        
+.guitare {
+        width: 15%;
+        height: auto;
+        float: left;
+        margin-right: 3%;
+        border-radius: 40% 15% 40% 15%;
+        border: solid 6px white;
+        box-shadow: rgba(68, 18, 216, 0.971) 6px 4px 0px;
+        margin-bottom: 4%;
+        }
+        
+.guit {
+            margin: 3%;
+        }
+.contre {
+            margin: 3%;
+        }
+        
+@media screen and (max-width: 1210px) {
+    .navmobile{
+        display: none;
+     }
+    .navrubrique{
+        margin: 5%;
+            }
+        }
+@media screen and (min-width: 1209px) {
+    .navrubrique{
+       display: none;
+        }
+        
+    }
+
+
+
+
+
+
+
+.foot {
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    position:relative;
+    bottom: auto;
+    }

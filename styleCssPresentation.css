@@ -52,10 +52,25 @@ html, body {
         position:relative;
         bottom: auto;
     }
-    @media screen and (max-width : 780px) {
+    
+    
+    @media screen and (max-width: 1210px) {
+        .navmobile{
+            display: none;
+        }
+        .navrubrique{
+            
+            margin: 5%;
+        }
         .presentation{
             border: none;
             box-shadow: none;
         }
     }
+@media screen and (min-width: 1209px) {
+    .navrubrique{
+        display: none;
+    }
+    
+}
 

@@ -1,8 +1,15 @@
 html, body {
   font-size: 100%;
-  background-color: black;
+  background-color:white;
   height: 100%;
-  width: 100%;}
+  width: 100%;
+display: flex;
+flex-direction: row;
+
+
+
+
+}
   
   
   /*partie index*/
@@ -224,5 +231,10 @@ html, body {
   
   }
   /* partie nav*/
+.navrubrique{
+padding: 50%;
+}
+    
 
-  
+
+   
