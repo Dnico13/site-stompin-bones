@@ -1,0 +1,83 @@
+html, body {
+    font-size: 100%;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    
+    display: flex;
+    height: 10%;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    }
+
+    .titrecontact {
+        text-align: center;
+        color: white;
+        text-shadow:rgba(68, 18, 216, 0.971) 4px 3px 0px ;
+        padding: 2%;
+        margin: 4%;
+        }
+        
+        .pcontact {
+            color: white;
+            font-size:  1.5rem ;
+            text-align: center;
+        }
+        
+        .containerContact {
+            display: flex;
+            flex-direction: row;
+            height: 30%;
+            width: 100%;
+            justify-content:center;
+            margin-top: 5%;
+        }
+        
+        .contact1 {
+            width: auto;
+            height: auto;
+            margin-right: 3%;
+        }
+        .contact2 {
+            width: auto;
+            height: auto;
+            margin-right: 3%;
+        }
+        .contact3 {
+            width: auto;
+            height: auto;
+        }
+        .contact4 {
+            width: auto;
+            height: auto;
+            margin-left: 3%;
+        }
+
+@media screen and (max-width: 1210px) {
+        .navmobile{
+            display: none;
+        }
+        .navrubrique{
+            
+            margin: 5%;
+        }
+    }
+@media screen and (min-width: 1209px) {
+    .navrubrique{
+        display: none;
+    }
+    
+}
+.foot {
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    position:relative;
+    bottom: auto;
+}

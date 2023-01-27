@@ -1,0 +1,48 @@
+html, body {
+    font-size: 100%;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    
+    display: flex;
+    height: 10%;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    }
+
+    .boutique {
+        font-size: 2em;
+        color: white;
+        margin-top: 15%;
+        text-align: center;
+        margin-bottom: 5%;
+        }
+
+@media screen and (max-width: 1210px) {
+        .navmobile{
+            display: none;
+        }
+        .navrubrique{
+            
+            margin: 5%;
+        }
+    }
+@media screen and (min-width: 1209px) {
+    .navrubrique{
+        display: none;
+    }
+    
+}
+.foot {
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    position:relative;
+    bottom: auto;
+}
