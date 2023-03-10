@@ -20,6 +20,7 @@ html, body {
     
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     text-align: justify;
     font-family:  Arial, sans-serif;
     width: 70%;
