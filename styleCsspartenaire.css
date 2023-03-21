@@ -48,6 +48,9 @@ html, body {
         .encadrement{
             border: none;
             box-shadow: none;
+            margin:none;
+            padding: none;
+            width: 100%;
         }
   
     }
