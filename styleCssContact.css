@@ -43,6 +43,10 @@ html, body {
             width: auto;
             height: auto;
             margin-right: 3%;
+            
+        }
+        .telephone{
+            border-radius: 50%;
         }
         .contact2 {
             width: auto;
@@ -57,6 +61,9 @@ html, body {
             width: auto;
             height: auto;
             margin-left: 3%;
+        }
+        .email{
+            border-radius: 50%;
         }
 
 @media screen and (max-width: 1210px) {
