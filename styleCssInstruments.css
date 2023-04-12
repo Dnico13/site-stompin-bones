@@ -16,6 +16,10 @@ html, body {
     justify-content:space-between;
     
     }
+.transform:hover {
+        
+    transform: scale(1.1);
+}
 .containerinstru {
     display: flex;
     flex-direction: column;

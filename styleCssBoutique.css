@@ -15,7 +15,10 @@ html, body {
     justify-content:space-between;
     
     }
-
+.transform:hover {
+        
+        transform: scale(1.1);
+}
     .boutique {
         font-size: 2em;
         color: white;

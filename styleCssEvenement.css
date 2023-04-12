@@ -15,7 +15,10 @@ html, body {
     justify-content:space-between;
     
     }
-
+.transform:hover {
+        
+    transform: scale(1.1);
+}
 @media screen and (max-width: 1210px) {
         .navmobile{
             display: none;
