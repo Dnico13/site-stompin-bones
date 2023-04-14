@@ -18,7 +18,9 @@ html, body {
 .transform:hover {
         
     transform: scale(1.1);
+    
 }
+
     .titrecontact {
         text-align: center;
         color: white;
@@ -46,7 +48,7 @@ html, body {
             width: auto;
             height: auto;
             margin-right: 3%;
-            
+                        
         }
         .telephone{
             border-radius: 50%;
