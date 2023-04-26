@@ -4,8 +4,7 @@ html, body {
     height: 100%;
     width: 100%;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
+    
 
     
 }
@@ -20,10 +19,16 @@ html, body {
 .transform:hover {
         
         transform: scale(1.1);
-        background-color: green;
+        
 }
 
+.position{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     
+}    
         
     
     .boutique {
@@ -32,7 +37,7 @@ html, body {
         margin-top: 10%;
         text-align: center;
         margin-bottom: 2%;
-        width: 100%;
+        width: auto;
         
         }
 
@@ -44,6 +49,8 @@ html, body {
             
             margin: 5%;
         }
+        
+        
     }
 @media screen and (min-width: 1209px) {
     .navrubrique{
