@@ -63,82 +63,87 @@
     </div>
   </header>
   <main>
-    <div class="container-fluid">
-      <div class="row justify-content-end">
+    <!-- presentation des artciles-->
 
-        <div class="col col-sm-6 col-md-3 m-2">
-          <div class="card p-2 bg-light transform" style="width: 10rem;">
-            <img src="https://picsum.photos/100/100" class="card-img-top border border-primary border-5" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Nom Article</h5>
-              <p class="card-text">Descriptif</p>
-              <p>P.V.C= 10 Euros</p>
+    <!-- fin de presentation des articles-->
 
-            </div>
-          </div>
-        </div>
-        <!--
-        <div class="col col-sm-6 col-md-3 m-2">
-            <div class="card p-2 bg-light transform" style="width: 10rem;">
-              <img src="https://picsum.photos/100/100" class="card-img-top" alt="...">
-                <div class="card-body"> 
-                  <h5 class="card-title">Nom Article</h5>
-                  <p class="card-text">Descriptif</p>
-                  <p>P.V.C= 10 Euros</p>
-                
-                </div>
-            </div>
-        </div>
-        <div class="col col-sm-6 col-md-3 m-2">    
-            <div class="card p-2 bg-light transform" style="width: 10rem;">
-              <img src="https://picsum.photos/100/100" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Nom Article</h5>
-                <p class="card-text">Descriptif</p>
-                <p>P.V.C= 10 Euros</p>
-                
-                </div>
-            </div>
-        </div>    
-        <div class="col col-sm-6 col-md-3 m-2">    
-            <div class="card p-2 bg-light transform" style="width: 10rem;">
-              <img src="https://picsum.photos/100/100" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Nom Article</h5>
-                <p class="card-text">Descriptif</p>
-                <p>P.V.C= 10 Euros</p>
-                
-                </div>
-            </div>
-        </div>
-        <div class="col col-sm-6 col-md-3 m-2">    
-            <div class="card p-2 bg-light transform" style="width: 10rem;">
-              <img src="https://picsum.photos/100/100" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Nom Article</h5>
-                <p class="card-text">Descriptif</p>
-                <p>P.V.C= 10 Euros</p>
-                
-                </div>
-            </div>
-        </div>
-        <div class="col col-sm-6 col-md-3 m-2">
-            <div class="card p-2 bg-light transform" style="width: 10rem;">
-              <img src="https://picsum.photos/100/100" class="card-img-top image-fluid" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Nom Article</h5>
-                <p class="card-text">Descriptif</p>
-                <p>P.V.C= 10 Euros</p>
-                </div>
-            </div>
-        </div>
-        
 
-      </div>-->
-        <!-- <p> Notre Boutique est en cours d'élaboration.</p>
-      <p> Nous vous la présenterons trés prochainement.</p>
-      <p> Merci de bien vouloir patienter.</p>-->
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="asset/photo-illustration-boutique.jpg" class="d-block mx-lg-auto img-fluid border border-5 border-primary rounded"
+            alt="illustration d un carton contenant des tshirt du groupe" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <table class="table table-primary table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Article</th>
+                <th scope="col">Taille</th>
+                <th scope="col">Prix</th>
+                <th scope="col">Quantité</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>T-shirt</td>
+                <td>
+                  <select>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                  </select>
+                </td>
+                <td>20.80</td>
+                <td ><input id="Tshirt" type="number" min="0" max="10"></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Casquette</td>
+                <td>
+                  <select>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                  </select>
+
+                </td>
+                <td>18.40</td>
+                <td ><input id="casquette" type="number" min="0" max="10"></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Briquet</td>
+                <td></td>
+                <td>6.20</td>
+                <td ><input id="briquet" type="number" min="0" max="10"></td>
+              </tr>
+              <tr>
+                <td colspan="4">Total HT</td>
+                <td id="HT"></td>
+              </tr>
+              <tr>
+                <td colspan="4">TVA: 20 %</td>
+                <td id="TVA"></td>
+              </tr>
+              <tr>
+                <td colspan="4">Total TTC:</td>
+                <td id="TTC"></td>
+              </tr>
+              <tr>
+                <td colspan="5" class="text-center"><button onclick="additionner()" class="btn btn-primary">Calculer le montant de la commande</button></td>
+              </tr>
+            </tbody>
+          </table>
+          
+
+        </div>
       </div>
+    </div>
   </main>
   <footer class="foot">
     <p>@ By NDev 2023</p>
